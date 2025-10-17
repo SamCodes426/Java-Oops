@@ -26,24 +26,27 @@ class Movie{
     }
 
     public void play(){
-        System.out.println("the movie is playing");
+        System.out.println(title+" is playing !");
     }
 
     public void pause(){
-        System.out.println("the movie is paused");
+        System.out.println(title+" is paused !");
     }
 
     public void stop(){
-        System.out.println("the movie is stopped");
+        System.out.println(title+" is stopped !");
     }
 
     public void displayDetails(){
 
-        System.out.println(title);
-        System.out.println(director);
-        System.out.println(duration);
-        System.out.println(rating);
-        System.out.println(genre);
+        System.out.println();
+        System.out.println("-----------"+title+"-----------");
+        System.out.println();
+        System.out.println("Director : "+director);
+        System.out.println("Duration : "+duration);
+        System.out.println("Rating : "+rating);
+        System.out.println("Genre : "+genre);
+        System.out.println("---------------------------------");
     }
 
 }
